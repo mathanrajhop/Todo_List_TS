@@ -1,0 +1,60 @@
+
+h1, h3 {
+    margin: 0;
+}
+.App {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #150941;
+    color: #f80040;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+.section {
+    flex: 1;
+    background-color: #f800400f;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    c: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card-list {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-item {
+    width: 100%;
+    
+    padding: 10px;
+}
+.card-item:hover {
+    width: 100%;
+    
+    background: #7d57a71a;
+    font-size: 1.55rem;
+}
