@@ -3,6 +3,7 @@ import './App.css';
 
 import TodoList from './components/todoList';
 import { dotoListStateInterFace } from './interface';
+import TodoAdd from './components/todoAdd';
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
   return (
     <div className="App">
       <h1>Todo List</h1>
-      <TodoList 
+      <TodoAdd />
+      <TodoList
         setTodoList={setTodoList}
         todoList={todoList}
       />

@@ -1,7 +1,8 @@
-
-h1, h3 {
+h1,
+h3 {
     margin: 0;
 }
+
 .App {
     margin: 0;
     padding: 10px 0;
@@ -17,6 +18,7 @@ h1, h3 {
     width: 100%;
     overflow: hidden;
 }
+
 .row {
     display: flex;
     align-items: normal;
@@ -24,6 +26,7 @@ h1, h3 {
     gap: 1rem;
     width: 100%;
 }
+
 .section {
     flex: 1;
     background-color: #f800400f;
@@ -49,12 +52,13 @@ h1, h3 {
 
 .card-item {
     width: 100%;
-    
+
     padding: 10px;
 }
+
 .card-item:hover {
     width: 100%;
-    
+
     background: #7d57a71a;
     font-size: 1.55rem;
 }

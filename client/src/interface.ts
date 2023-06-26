@@ -4,8 +4,8 @@ export interface dotoListInterFace {
 }
 
 export interface dotoListStateInterFace {
-    isPending: Array < dotoListInterFace >,
-    isDone: Array < dotoListInterFace >,
+    isPending: Array<dotoListInterFace>,
+    isDone: Array<dotoListInterFace>,
 }
 
 export interface dotoListPropsInterFace {
